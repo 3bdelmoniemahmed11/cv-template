@@ -1,0 +1,273 @@
+body
+{
+    background-color:#f1f1f1 ;
+    color:#000;
+    height:1480px;
+    padding:0;
+    margin: 0;
+}
+.info
+{
+    background-color: #fff;
+    width:33.33%;
+    height:auto;
+    box-shadow: 3px 3px 3px 3px rgba(161, 156, 156, 0.5);  
+    padding-bottom: 10px;
+    overflow: hidden;
+    float:left;
+    margin:10px 5px 0 5px;
+}
+.info img
+{
+  width:100%;
+}
+.info .name
+{
+    background-color: #009688;
+    width:25%;
+    text-align: center;
+    padding: 0 10px;
+    z-index: 999999;
+    margin-top: -40px;
+    position: relative;
+    padding-left:2px;
+    padding-right:2px;
+    box-shadow: 0 0 20px 0 rgba(161, 156, 156, 0.7);  
+}
+
+.info .name h2
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:#00443d;
+}
+.info .icons 
+{
+    margin-left:20px;
+    line-height: 1.5;
+}
+.info .icons .icon ,i
+{
+   color: #009688;
+   font-size:20px;
+   margin-right:20px; 
+}
+.info .icons p span , strong
+{
+    font-size:18px;
+    color:#757562;
+}
+hr
+{
+    margin:20px 0;
+    border: 1px solid #eee;
+    overflow: hidden; 
+}
+.info .skill
+{
+    font-size:19px;
+    color:#757562;
+    margin:25px 0 25px 25px;
+}
+.info .photoshop
+{
+    background-color: #f1f1f1;
+    border-radius:25px;
+    width:90%;
+    height: 20px;
+    margin-left:20px;
+}
+.info .photoshop .precntage1
+{
+    width:90%;
+    height: 20px; 
+    border-radius:25px;
+    background-color: #009688;
+    color: white;
+    text-align: center
+}
+.info .photoshop  #case1
+{
+    padding-right:20px;
+}
+.info .photoshop #ps1
+{
+    width:80%; 
+}
+.info .photoshop  #case2
+{
+    padding-right:25px;
+}
+.info .photoshop #ps2
+{
+    width:75%; 
+}
+.info .photoshop  #case3
+{
+    padding-right:35px;
+}
+.info .photoshop #ps3
+{
+    width:50%; 
+}
+.info #sc1
+{
+    height: 30px;
+}
+.info .photoshop #ps4 
+{
+    width:100%; 
+    height:30px;
+}
+.info .photoshop #ps5
+{
+    width:50%;
+    height: 30px;
+}
+.info .photoshop #ps6
+{
+    width:35%;
+    height: 30px;
+}
+@media (max-width:767px)
+{
+    /*smallscreens*/
+.info
+{
+    width:100%;
+    display: block;
+}
+.info .name
+{
+    width:40%;
+}
+.info .name h2 
+{
+    font-size: 15px;
+}
+.info2
+{   
+    margin-top:20px !important;
+    width:100% !important;
+   
+}
+.education
+{
+    
+    width:100% !important;
+    margin-left:5px !important;
+}
+.info2 p
+{
+    font-size:15px !important;
+}
+.info2 .lorem ,.education .lorem
+{
+    margin-left: 20px !important;
+}
+
+}
+@media (min-width:768px)
+{
+    /*meduim screen*/
+    .info .name
+    {
+        width:40%;
+    }
+    .info .name h2 
+    {
+        font-size:15px;
+    }
+
+}
+.info2
+{
+    background-color: #fff;
+    width:64%;
+    height:auto;
+    box-shadow: 3px 3px 3px 3px rgba(161, 156, 156, 0.5);  
+    overflow: hidden;
+    float:right;
+    padding-bottom: 15px;
+    margin:10px 10px 10px 0;
+}
+p #case4  ,.education .case4
+{
+    font-size:35px;
+    color:#757562;
+    font-weight: 300;
+    margin-left:10px;
+}
+p .fa-suitcase ,p .fa-certificate
+{
+    font-size: 35px;
+   
+}
+p .fa-calendar-alt ,p .fa-certificate
+{
+margin:10px 0 5px 40px;
+}
+p .fa-calendar-alt span
+{
+    background-color:#009688;
+    color: white;
+    border-radius:10px;
+    padding: 8px;
+}
+.info2 .case5 ,.education .case5
+{
+    font-size:25px;
+    color:#757562;
+    margin:20px 0 10px 40px;
+    font-weight: bold;
+    opacity: 0.8; 
+}
+.info2 .lorem ,.education .lorem
+{
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    padding:10px;
+    width: 90%;
+    font-size: 18px;
+    margin-left:30px;
+}
+.education
+{
+    background-color: #fff;
+    width:64%;
+    height:auto;
+    box-shadow: 3px 3px 3px 3px rgba(161, 156, 156, 0.5);  
+    overflow: hidden;
+    float:right;
+    padding-bottom: 25px;
+    margin:10px 10px 10px 0;
+}
+
+.contact
+{
+    background-color: #009688;
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    height:150px;
+    clear: both;
+    padding-top:20px;
+}
+.contact p 
+{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.contact i
+{
+    color: #eee;
+}
+.contact i:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
